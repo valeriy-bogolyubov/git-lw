@@ -3,6 +3,8 @@
 number = int(input("Provide starting number: "))
 step = int(input("Provide step: "))
 
-while(True):
+print(f"{number} + {step} = {number + step}")
+
+for i in range(5):
     print(number)
     number += step    
