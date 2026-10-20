@@ -1,6 +1,8 @@
 
-i = 0
 
-while(1):
-    print(i)
-    i += 1    
+number = int(input("Provide starting number: "))
+step = int(input("Provide step: "))
+
+while(True):
+    print(number)
+    number += step    
